@@ -4,7 +4,6 @@
 # Purpose: Run this script before rebooting Linux server, to ensure that all NFS mounts in the server are verified to exist in /etc/fstab for reliable reboot.
 # Author: Johnny Darwin
 # Date: 22/8/2013
-# Installation: IBM India, Pool 67
 ############################################################################
 
 my $nfs_mounts, $nfs_check_fstab, $str, $fstab_mounts;
